@@ -88,7 +88,7 @@ function OnAdClick(e){
 		key = e.target.getAttribute("data-key"); 
 
 	console.log(testAds[key].url);
-	//window.open(testAds[key].url, '_blank');
+	window.open(testAds[key].url, '_blank');
 }
 
 function SafeTextLength(text, maxLetters){
